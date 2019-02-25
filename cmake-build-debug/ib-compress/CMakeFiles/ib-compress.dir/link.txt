@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../android_lib_output/EditRender/lib/libib-compress.a  CMakeFiles/ib-compress.dir/indexbuffercompression.cpp.o CMakeFiles/ib-compress.dir/indexbufferdecompression.cpp.o
+/usr/bin/ranlib ../../android_lib_output/EditRender/lib/libib-compress.a

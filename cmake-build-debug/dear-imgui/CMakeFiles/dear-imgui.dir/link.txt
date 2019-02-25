@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../android_lib_output/EditRender/lib/libdear-imgui.a  CMakeFiles/dear-imgui.dir/imgui_draw.cpp.o CMakeFiles/dear-imgui.dir/imgui_widgets.cpp.o CMakeFiles/dear-imgui.dir/imgui.cpp.o
+/usr/bin/ranlib ../../android_lib_output/EditRender/lib/libdear-imgui.a

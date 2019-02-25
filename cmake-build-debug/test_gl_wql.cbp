@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test_gl_wql"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\;CMake Files\bx\;CMake Files\bimg\;CMake Files\bimg\src\;CMake Files\bgfx\;CMake Files\bgfx\3rdparty\;CMake Files\bgfx\3rdparty\dear-imgui\;CMake Files\bgfx\3rdparty\ib-compress\;CMake Files\bgfx\examples\;CMake Files\bgfx\examples\common\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gl_wql">
+				<Option output="/home/hl/Desktop/test-gl-wql/cmake-build-debug/test_gl_wql" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_gl_wql"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gl_wql/fast">
+				<Option output="/home/hl/Desktop/test-gl-wql/cmake-build-debug/test_gl_wql" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_gl_wql/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bx">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libbx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bx/./include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bx/./3rdparty"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx/Makefile&quot;  VERBOSE=1 bx"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bx/fast">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libbx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bx/./include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bx/./3rdparty"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx/Makefile&quot;  VERBOSE=1 bx/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bimg">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libbimg.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/../bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/./include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/./3rdparty"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg/Makefile&quot;  VERBOSE=1 bimg"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bimg/fast">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libbimg.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/../bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/./include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/./3rdparty"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg/Makefile&quot;  VERBOSE=1 bimg/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bimg-decode">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libbimg-decode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/src/../../bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/src/../include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/src/../3rdparty"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode/Makefile&quot;  VERBOSE=1 bimg-decode"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bimg-decode/fast">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libbimg-decode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/src/../../bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/src/../include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bimg/src/../3rdparty"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode/Makefile&quot;  VERBOSE=1 bimg-decode/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bimg-decode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dear-imgui">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libdear-imgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/.."/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/../../../bx/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui/Makefile&quot;  VERBOSE=1 dear-imgui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dear-imgui/fast">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libdear-imgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/.."/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/../../../bx/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui/Makefile&quot;  VERBOSE=1 dear-imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/dear-imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ib-compress">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libib-compress.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/ib-compress/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress/Makefile&quot;  VERBOSE=1 ib-compress"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ib-compress/fast">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libib-compress.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/ib-compress/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress/Makefile&quot;  VERBOSE=1 ib-compress/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/ib-compress/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bgfx">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libbgfx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/./3rdparty"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/./3rdparty/khronos"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/./include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/../bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/../bimg/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx/Makefile&quot;  VERBOSE=1 bgfx"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bgfx/fast">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libbgfx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/./3rdparty"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/./3rdparty/khronos"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/./include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/../bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/../bimg/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx/Makefile&quot;  VERBOSE=1 bgfx/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/bgfx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/sources/android/native_app_glue"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/../../../bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/../../../bimg/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/../../include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/../../3rdparty"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/home/hl/Desktop/test-gl-wql/android_lib_output/EditRender/lib/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hl/Desktop/test-gl-wql/cmake-build-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/sources/android/native_app_glue"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/../../../bx/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/../../../bimg/include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/../../include"/>
+					<Add directory="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/../../3rdparty"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hl/Desktop/test-gl-wql/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/ExampleFBO.cpp">
+			<Option target="test_gl_wql"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/ExampleFBO.h">
+			<Option target="test_gl_wql"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/imgui.cpp">
+			<Option target="dear-imgui"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/imgui.h">
+			<Option target="dear-imgui"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/imgui_draw.cpp">
+			<Option target="dear-imgui"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/imgui_widgets.cpp">
+			<Option target="dear-imgui"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/ib-compress/indexbuffercompression.cpp">
+			<Option target="ib-compress"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/ib-compress/indexbuffercompression.h">
+			<Option target="ib-compress"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/ib-compress/indexbufferdecompression.cpp">
+			<Option target="ib-compress"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/ib-compress/indexbufferdecompression.h">
+			<Option target="ib-compress"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/bgfx_utils.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/bgfx_utils.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/bounds.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/bounds.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/camera.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/camera.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/cube_atlas.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/cube_atlas.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/debugdraw/debugdraw.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/debugdraw/debugdraw.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/cmd.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/cmd.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry_android.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry_asmjs.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry_glfw.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry_noop.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry_sdl.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry_windows.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/entry_x11.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/input.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/entry/input.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/example-glue.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/font/font_manager.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/font/font_manager.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/font/text_buffer_manager.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/font/text_buffer_manager.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/font/text_metrics.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/font/text_metrics.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/font/utf8.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/font/utf8.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/imgui/imgui.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/imgui/imgui.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/imgui/scintilla.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/imgui/scintilla.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/nanovg/nanovg.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/nanovg/nanovg.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/nanovg/nanovg_bgfx.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/nanovg/nanovg_bgfx.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/ps/particle_system.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/ps/particle_system.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/src/amalgamated.cpp">
+			<Option target="bgfx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bimg/src/image.cpp">
+			<Option target="bimg"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bimg/src/image_decode.cpp">
+			<Option target="bimg-decode"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bimg/src/image_gnf.cpp">
+			<Option target="bimg"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/allocator.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/bx.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/commandline.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/crtnone.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/debug.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/dtoa.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/easing.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/file.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/filepath.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/hash.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/math.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/mutex.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/os.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/process.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/semaphore.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/settings.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/sort.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/string.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/thread.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/timer.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/src/url.cpp">
+			<Option target="bx"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/main.cpp">
+			<Option target="test_gl_wql"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/../../../../usr/local/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/../../../../usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/../../../../usr/local/lib/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/../../../../usr/local/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bx\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bimg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bimg\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bimg/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bimg\src\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bgfx\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/dear-imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bgfx\3rdparty\dear-imgui\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/3rdparty/ib-compress/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bgfx\3rdparty\ib-compress\"/>
+		</Unit>
+		<Unit filename="/home/hl/Desktop/test-gl-wql/bgfx/examples/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bgfx\examples\common\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

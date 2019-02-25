@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../android_lib_output/EditRender/lib/libbgfx.a  CMakeFiles/bgfx.dir/src/amalgamated.cpp.o
+/usr/bin/ranlib ../../android_lib_output/EditRender/lib/libbgfx.a

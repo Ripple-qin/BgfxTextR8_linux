@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../android_lib_output/EditRender/lib/libbimg-decode.a  CMakeFiles/bimg-decode.dir/image_decode.cpp.o
+/usr/bin/ranlib ../../android_lib_output/EditRender/lib/libbimg-decode.a
